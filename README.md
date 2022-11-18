@@ -1,7 +1,5 @@
 # Movies Clusters
 
-Data story  [click here to see it!](https://cdn2.vectorstock.com/i/1000x1000/91/21/under-construction-site-banner-sign-black-vector-28279121.jpg)
-
 ## Abstract
 
 In the current age of easy access to humanity's greatest cinematic achievements when we like and how we like, we often wish to seek out the best of the best when looking for a way to spend an afternoon. But what really makes a movie a critical success? Is it an artistic X factor, the result of a director, the cast and the crew pouring their heart and soul into a project, or are there measurable factors that influence if we see a film as "high quality"? Is there a recipe for a critical darling?

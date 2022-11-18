@@ -8,10 +8,6 @@ In the current age of easy access to humanity's greatest cinematic acheivements 
 
 In this project we attempt to gain a deeper understanding of what makes a movie a critical success using a data-driven approach. Our analysitakes into account several factors and takes advantage of the large amounts of lexical data provided in the data set using feature extraction.
 
-* Brief Data Description
-* What we'll do
-* How we'll do it
-
 ## Research Questions
 
 * What is the optimal way to separate the movies contained in the data set (which clustering methods... hand made...?)

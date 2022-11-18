@@ -18,7 +18,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 ## Additional Datasets
 
-* IMDB dataset: included as to enrich the selected dataset's features. After analysis only the IMDB score was kept.
+* IMDB dataset: included as to enrich the selected dataset's features. After analysis only the IMDB score was kept. Despite leading to a decreasing number of complete datapoints(around 20 to 25% of losses), we decided to perform the merge anyways to have this additional very releavant score.  
 
 ## Methods
 
@@ -40,7 +40,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 * **Ad**rián: Web page data story and presentation - viz.
 * **Llu**ka:
-* **Ce**cilia: Lexical and clustering analysis of plot summaries and titles
+* **Ce**cilia:
 * **R**aph:
 
 ## Questions for TAs

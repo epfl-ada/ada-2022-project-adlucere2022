@@ -20,13 +20,17 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 ## Methods
 
-### Dataset Description
+* Dataset Description
 
-### Preprocessing
+* Preprocessing
 
-### Feature Extraction
+* Feature Extraction
 
-###
+* IMDB Processing
+
+* Natural Language Processing:
+
+* Jaccard Distance Computation:
 
 
 ## Proposed Timeline

@@ -18,7 +18,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 ## Additional Datasets
 
-* IMDB dataset: included as to enrich the selected dataset's features. After analysis only the IMDB score was kept. Despite leading to a decreasing number of complete datapoints (around 20 to 25% of losses), we decided to perform the merge to obtain this interesting score to end our pipeline.  
+* IMDB dataset: included as to enrich the selected dataset's features. After analysis only the IMDB score was kept. Despite leading to a decreasing number of complete datapoints (around 20 to 25% of losses), we decided to perform the merge to obtain this interesting score to end our pipeline. In order to deal with the data size of 100GB, we perform an analysis and data extraction on a local machine (code provided on the notebook) before exporting the resulting dataframe ('movie_data_imdbscores.csv') on this GitHub repository. 
 
 ## Methods
 

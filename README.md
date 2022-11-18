@@ -37,8 +37,8 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
   * comparison of clustering performance 
                
 * 18 Dec 2022: Machine Learning methods to predict imdb score from the clusters infos
-               * NN / Random forest / other? to be tested
-               * comparison of ML methods performance
+  * NN / Random forest / other? to be tested
+  * comparison of ML methods performance
           
 * 21 Dec 2022: Correction + Harmonization + Commenting + Plotting
 

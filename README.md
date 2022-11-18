@@ -20,19 +20,21 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 ## Methods
 
-* Dataset Description
+### Dataset Description
 
-dbdisbdi
+Merge of the 5 initial dataframes into one dataframe with the objective of completing missing values through common features. Conversion of some feature in the datetime format. Plot of the feature missing values ratio. 
 
-* Preprocessing
+### Preprocessing
 
-* Feature Extraction
+Convertion of string features that combine all languages, countries and genres of a given movies into more computational-friendly features such as several columns in the main dataframe. Correcting repetitive values that are seen as different e.g. different english languages. Selecting only the most present languages, countries and genres to reduce the number of different categories. 
 
-* IMDB Processing
+### Feature Extraction
 
-* Natural Language Processing:
+Creation of new features that appear relevant such as gender ratio, number of positive words in the plot, indicators for translations given the most present languages.
 
-* Jaccard Distance Computation:
+### IMDB Processing
+
+Merge based on the movie title of the IMDB dataset in order to obtain the score given by the public.
 
 
 ## Proposed Timeline

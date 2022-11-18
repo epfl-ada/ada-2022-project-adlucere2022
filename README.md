@@ -46,10 +46,10 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 ## Team Organization
 
-* **Ad**rián: Web page data story and presentation - viz.
-* **Llu**ka:
-* **Ce**cilia:
-* **R**aphael:
+* **Ad**rián: cluster method 1 + time changes + ML method 2 + Web page
+* **Llu**ka: cluster method 1 + stats method 1 + ML method 1 + corrections
+* **Ce**cilia: cluster method 2 + time changes + ML method 1 + corrections
+* **R**aphael: cluster method 2 + stats method 2 + ML method 2 + corrections
 
 ## Questions for TAs
 

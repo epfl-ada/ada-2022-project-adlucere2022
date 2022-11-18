@@ -31,15 +31,25 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 ## Proposed Timeline
 
-* 27 Nov 2022: Base template and web page design.
-* 23 Dec 2022: Milestone P3
+* 11 Dec 2022: Cluster code + clusters changes over time + statistical tests to compare clusters
+               --> Anova / t-tests / other? to be tested
+               --> 2 or 3 clusters algorithms
+               --> comparison of clustering performance 
+               
+* 18 Dec 2022: Machine Learning methods to predict imdb score from the clusters infos
+               --> NN / Random forest / other? to be tested
+               --> comparison of ML methods performance
+          
+* 21 Dec 2022: Correction + Harmonization + Commenting + Plotting
+
+* 23 Dec 2022: Website implementation
 
 ## Team Organization
 
 * **Ad**rián: Web page data story and presentation - viz.
 * **Llu**ka:
 * **Ce**cilia:
-* **R**aph:
+* **R**aphael:
 
 ## Questions for TAs
 

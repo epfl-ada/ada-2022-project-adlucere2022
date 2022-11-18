@@ -4,7 +4,9 @@ Data story  [click here to see it!](https://cdn2.vectorstock.com/i/1000x1000/91/
 
 ## Abstract
 
-In the current age of easy access to humanity's greatest cinematic acheivements when we like and how we like, we often wish to seek out the best of the best when looking for a way to spend an afternoon. But what really makes a movie a critical success? Is it an artistic X factor, the result of a director, the cast and the crew pouring their heart and soul into a project, or are there measurable factors that influence if we see a film as "high quality"? Is there a recipe for a critical darling? In this project we attempt to gain a deeper understanding of what makes a movie a critical success using a data-driven approach. Our analysitakes into account several factors and takes advantage of the large amounts of lexical data provided in the data set using feature extraction.
+In the current age of easy access to humanity's greatest cinematic acheivements when we like and how we like, we often wish to seek out the best of the best when looking for a way to spend an afternoon. But what really makes a movie a critical success? Is it an artistic X factor, the result of a director, the cast and the crew pouring their heart and soul into a project, or are there measurable factors that influence if we see a film as "high quality"? Is there a recipe for a critical darling?
+
+In this project we attempt to gain a deeper understanding of what makes a movie a critical success using a data-driven approach. Our analysitakes into account several factors and takes advantage of the large amounts of lexical data provided in the data set using feature extraction.
 
 * Brief Data Description
 * What we'll do

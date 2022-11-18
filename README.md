@@ -32,7 +32,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 ## Proposed Timeline
 
 * 11 Dec 2022: Cluster code + clusters changes over time + statistical tests to compare clusters
-               --> Anova / t-tests / other? to be tested
+               -> Anova / t-tests / other? to be tested
                --> 2 or 3 clusters algorithms
                --> comparison of clustering performance 
                

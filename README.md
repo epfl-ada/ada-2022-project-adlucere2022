@@ -40,7 +40,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 * **Ad**rián: Web page data story and presentation - viz.
 * **Llu**ka:
-* **Ce**cilia:
+* **Ce**cilia: Lexical and clustering analysis of plot summaries and titles
 * **R**aph:
 
 ## Questions for TAs

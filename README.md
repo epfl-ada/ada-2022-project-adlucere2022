@@ -13,7 +13,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 * Is it possible to relevantly assemble movies between each others?
 * In that case, what would be the most significant features to seperate movies? 
 * Are those significant features always the same over time? 
-* Do these clusters allow us to predict the imdb score?
+* Do these clusters allow us to predict the imdb score nowadays?
 
 
 ## Additional Datasets

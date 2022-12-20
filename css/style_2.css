@@ -133,18 +133,42 @@ img{
   }
 
 
-  @media only screen  and (max-width: 900px){
+  
+@media only screen  and (max-width: 700px){
 
   
-    .typewritter h1 {
-      font-size: 2rem;
-    }
-  
-  .typewritter p{
-      font-size: 0.75rem;
-      letter-spacing: .01em;
+  .typewritter h1 {
+    font-size: 2rem;
   }
+
+.typewritter p{
+    font-size: 0.75rem;
+    letter-spacing: .01em;
+}
+
+.carpet{
+  width: 95%;
+}
+
+
+}
+
+@media only screen  and (max-width: 480px){
+
   
-  
-  
-  }
+.typewritter h1 {
+  font-size: 1.5rem;
+}
+
+.typewritter p{
+    font-size: 0.5rem;
+    letter-spacing: .01em;
+}
+
+.carpet p{
+  font-size: 0.5rem;
+}
+.carpet h1{
+  font-size: 1rem;
+}
+}

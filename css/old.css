@@ -7,43 +7,29 @@
     font-family: "Source Code Pro";
 }
 
-a{
-  color: white;
-}
-
 html{
     scroll-behavior: smooth;
     overflow: auto;
 }
 
 body{
-    background: black;
-    color: white;
-    overflow: auto;
-}
-
-button{
-  padding: 5px 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(146, 146, 146);
-  font-size: 0.75rem;
+  background: rgb(252, 235, 201);
+  color: black;
+  overflow: auto;
 }
 
 
 p{
   font-size: 0.85rem;
-  color: white;
 }
 
 span{
-    color: #e3d7a1;
+    color: #701515;
     letter-spacing: 0.225em
 }
 
 h1{
-    color: #e3d7a1;
+    color: white;
 }
 
 img{
@@ -59,38 +45,27 @@ img{
 
 .column{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
 .header{
     width: 100%;
-    height: 250px;
+    height: 25vh;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(0deg, rgba(8,8,8,1) 10%, #961818 90%);
-}
-
-.footer{
-  margin-top: 15px;
-  width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  background: linear-gradient(180deg, rgba(8,8,8,1) 0%, #961818 100%);
+    background: linear-gradient(180deg, #961818c9 0%, rgb(252, 235, 201) 90%);
 }
 
 
 .typewritter h1 {
     font-size: 3rem;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .1em solid #e3d7a1; /* The typwriter cursor */
+    border-right: .1em solid #701515; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .1em; /* Adjust as needed */
@@ -123,7 +98,7 @@ img{
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #e3d7a1; }
+    50% { border-color: #701515; }
   }
 
 
@@ -131,12 +106,13 @@ img{
     width: 85%;
     height: fit-content;
     overflow: hidden;
-    background: #9618189c;
+    background: #92535388;
 
     border-width: 20px;
     border-radius: 15px;
     border-style: solid;
     border-image: linear-gradient(-90deg, rgba(8,8,8,1) 20%, #961818 100%) 1 100%;
+
 
     animation: carpet-roll 1s;
 
@@ -152,7 +128,7 @@ img{
 
 
 .command-window{
-  background-color: rgba(0, 0, 0, 0.256);
+  background-color: #92535355;
   padding: 1px 20px;
   border-radius: 5.5px;
 }
@@ -171,7 +147,6 @@ img{
   float: right;
 }
 
-
 .command-window::after{
   content: ">adlucere@admin:~$\00a0";
   border-right: .1em solid transparent; /* The typwriter cursor */
@@ -179,10 +154,9 @@ img{
   margin-left: 10px;
   margin-top: 10px;
   font-size: 0.8rem;
-  color: #e3d7a1;
+  color: #701515;
   letter-spacing: 0.225em
 }
-
 
 .command-window p span{
 
@@ -197,13 +171,13 @@ img{
 }
 
 .command-window h1{
+  color: rgba(227, 215, 161, 0.75);
   margin-left:10px;
   font-size: 1.5rem;
 }
 .command-window p{
   color: rgba(255, 255, 255, 0.8);
   margin-left:10px;
-  margin-bottom: 20px;
 }
 
 
@@ -247,17 +221,16 @@ h1{
   font-size: 0.7rem;
 }
 
-img{
-  
-  max-width: 95%;
-
-}
-
 .command-window::after{
   font-size: 0.7rem;
 }
 
 
+img{
+  
+  max-width: 95%;
+
+}
 
 }
 
@@ -287,46 +260,14 @@ img{
 }
 
 .command-window p span{
-
-  margin-left:10px;
   font-size: 0.5rem;
 }
-
 
 .command-window::after{
   font-size: 0.5rem;
 }
 
-
 }
 
 
 
-
-
-
-
-/* Secret */
-
-
-.button-enchilADA::after{
-  padding: 0px 10px;
-  content: "what happened to the footer?";
-}
-
-.enchilADA{
-  padding: 30px 100px;
-  background-position: center;
-  background-size: cover;
-  border-style: groove;
-  border-width: 5px;
-  border-color: black;
-  background-image: url(https://assets.unileversolutions.com/recipes-v2/179095.jpg);
-}
-
-.enchilADA::before{
-
-  content: "enchilADA";
-  color: rgb(119, 2, 2);
-  background-color: rgb(255, 255, 255);
-}

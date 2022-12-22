@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Hack'd Oscars</title>
+    <title>OscarHax.exe</title>
 
 
     <!-- CSS -->
@@ -28,8 +28,10 @@
         <p>Presented by: Adlucere 2022</p>
     </div>
     
-    <button onclick = "swapStyleSheet()">Click me?</button>
-    
+    <button onclick = "swapStyleSheet()" type="button" id="button">
+        <p>re<span>ADA</span>bleness?</p>
+    </button>
+
 </div>
 
 
@@ -41,48 +43,66 @@
 <div class="container column">
     <div class="container carpet">
 
-        <p><span>Come forth red carpet of analytical results...</span></p>
+        <div class = "command-window">
 
+            <p><span>>adlucere@admin:~$ introduction</span></p>
+
+            <h1>Introduction</h1>
+
+            <p>In the current age of easy access to humanity's greatest cinematic achievements when we like and how we like, we often wish to seek out the best of the best when looking for a way to spend an afternoon. But what really makes a movie a critical success? Is it an artistic X factor, the result of a director, the cast and the crew pouring their heart and soul into a project, or are there measurable factors that influence if we see a film as "high quality"? Is there a recipe for a critical darling? In this project we attempt to gain a deeper understanding of what makes a movie a critical success using a data-driven approach. Our analysis takes into account several factors and takes advantage of the large amounts of lexical data provided in the data set using feature extraction.</p>
         
-        <img src="./img/general_proportions.jpeg">
+            <p>...</p>
+
+            <p><span>Come forth red carpet of analytical results...</span></p>
+
+            <p>...</p>
         
-  
-
-        <h1>First Heading</h1>
-
-        <p>In the current age of easy access to humanity's greatest cinematic achievements when we like and how we like, we often wish to seek out the best of the best when looking for a way to spend an afternoon. But what really makes a movie a critical success? Is it an artistic X factor, the result of a director, the cast and the crew pouring their heart and soul into a project, or are there measurable factors that influence if we see a film as "high quality"? Is there a recipe for a critical darling? In this project we attempt to gain a deeper understanding of what makes a movie a critical success using a data-driven approach. Our analysis takes into account several factors and takes advantage of the large amounts of lexical data provided in the data set using feature extraction.</p>
-
-        <img src="./img/general_proportions.jpeg">
+        </div>
+        
+        <div class= "command-window">
+            
+            <p><span>>adlucere@admin:~$ cat separation_by_cluster_test.log</span></p>
+            
+            <p><span>Test Result:</span><span class = "test-results">FAILURE</span></p>
+            
+            <img src="./figs/Kmeans.png">
+        </div>
 
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-<!-- Content -->    
+<!-- Content -->  
 
 <!-- Footer -->
-<!-- <div class="container footer" id="footer">
+<div class="footer">
 
+    <p><span>AD</span>rian Ferrer, <span>LLu</span>ka Stojollari, <span>Ce</span>cilia Stella Männik, <span>R</span>apha<span>ë</span>l Rakotomahanina</p>
+    <p><span>ADA EPFL 2022 / </span><a href="https://github.com/epfl-ada/ada-2022-project-adlucere2022" target="_blank"><span>repository</span></a></p>
 
-    <p>Presented by: Adlucere 2022</p>
+    <div id="enchilADA"></div> 
 
-
-
-</div> -->
+</div>
 <!-- Footer -->
+
 </body>
 </html>
 
 <script>
 
+    var counter = 0;
+
     function swapStyleSheet(){
+
+        counter ++;
+
+        console.log(counter);
+
+        if (counter > 22){
+
+            document.getElementById("button").classList.add("button-enchilADA");
+            document.getElementById("enchilADA").classList.add("enchilADA");
+
+        }
+
         var currentStyle = document.getElementById("pagestyle");
 
         if (currentStyle.getAttribute("href") === "./css/style_2.css"){

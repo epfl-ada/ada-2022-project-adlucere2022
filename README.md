@@ -37,11 +37,11 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 ```
 ## Research Questions
 
-* Is it possible to relevantly assemble movies between each others?
-* In that case, what would be the most significant features to seperate movies?  
-* Do these clusters allow us to predict the imdb score nowadays?
+* Can we profile successful movies?
+* What would be the most significant features to seperate movies? 
+* How much are plot summaries helpful in identifying "5-star" movies?
 
-## Datasets
+### Datasets
 Our [main dataset](http://www.cs.cmu.edu/~ark/personas/) contains the data from Wikipedia + aligned metadata extracted from Freebase.
 [IMDB dataset](https://www.imdb.com/interfaces/): included as to enrich the selected dataset's features. After analysis only the IMDB score was kept. Despite leading to a decreasing number of complete datapoints (around 20 to 25% of losses), we decided to perform the merge to obtain this interesting score. In order to deal with the data size of 100GB, we perform the analysis and the data extraction on a local machine (code provided on the notebook) before exporting the resulting dataframe ('movie_data_imdbscores.csv') on this GitHub repository.Finally we merged the 5 initial dataframes into one dataframe with the objective of completing missing values through common features.
 

@@ -65,8 +65,8 @@ Merge based on the movie title of the IMDB dataset in order to obtain the score 
 
 ## Team AdLluCeRe
 
-* Adrián
-* Lluka
-* Cecilia
-* Raphael
+* Adrián Augusto Ferrer Orgaz
+* Lluka Stojollari
+* Cecilia Stella Mannik
+* Raphael Rakotomahanina
 

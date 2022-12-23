@@ -1,5 +1,14 @@
 # Hacking the Oscar
 
+
+[Click here](https://adrianfo-16.github.io/ADA-adlucere2022-web-page/) to see the data story 
+## Team AdLluCeRe
+
+* Adrián Augusto Ferrer Orgaz
+* Lluka Stojollari
+* Cecilia Stella Mannik
+* Raphael Rakotomahanina
+
 ## Abstract
 
 In the current age of easy access to humanity's greatest cinematic achievements when we like and how we like, we often wish to seek out the best of the best when looking for a way to spend an afternoon. But what really makes a movie a critical success? Is it an artistic X factor, the result of a director, the cast and the crew pouring their heart and soul into a project, or are there measurable factors that influence if we see a film as "high quality"? Is there a recipe for a critical darling?
@@ -51,19 +60,14 @@ Convertion of string features that combine all languages, countries and genres o
 ### Plot Summary Encoding
 Using plot summaries in the analysis, we perform “feature engineering” on them and encode them into a numerical representation for further analysis.
 We generate two different representations of plot summaries with two different techniques.
+##LDA
 So our first approach is performing LDA topic modeling and find the latent topic ditribution over the movies.We used the coherence score to compare the models in order to fine-tune the topic parameter for the LDA technique, and in the end we chose the model with the lowest score.We also extract a list of "prototype" movies for each topic, namely the top five weighted probability movies on each topic based on the movie-topic matrix distribution.
-
+##Factor Analysis
+As our second approach we manage to make three significant separations of the movies based on plot summaries depending on whether they “belong” to one of 3 computed categories named factors.We assigned each movie to one of them and since we have three
 
 
 ### Statistical IMDb Score Analysis
 
 
 
-[Click here](https://adrianfo-16.github.io/ADA-adlucere2022-web-page/) to see the data story 
-## Team AdLluCeRe
-
-* Adrián Augusto Ferrer Orgaz
-* Lluka Stojollari
-* Cecilia Stella Mannik
-* Raphael Rakotomahanina
 

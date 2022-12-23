@@ -63,29 +63,10 @@ Creation of new features that appear relevant such as gender ratio, number of po
 
 Merge based on the movie title of the IMDB dataset in order to obtain the score given by the public.
 
+## Team AdLluCeRe
 
-## Proposed Timeline
+* Adrián
+* Lluka
+* Cecilia
+* Raphael
 
-* 11 Dec 2022: Cluster code + clusters changes over time + statistical tests to compare clusters
-  * Anova / t-tests / other? to be tested
-  * 2 or 3 clusters algorithms
-  * comparison of clustering performance 
-               
-* 18 Dec 2022: Machine Learning methods to predict imdb score from the clusters infos
-  * NN / Random forest / other? to be tested
-  * comparison of ML methods performance
-          
-* 21 Dec 2022: Correction + Harmonization + Commenting + Plotting
-
-* 23 Dec 2022: Website implementation
-
-## Team Organization
-
-* **Ad**rián: cluster method 1 + time changes + ML method 2 + Web page
-* **Llu**ka: cluster method 1 + stats method 1 + ML method 1 + corrections
-* **Ce**cilia: cluster method 2 + time changes + ML method 1 + corrections
-* **R**aphael: cluster method 2 + stats method 2 + ML method 2 + corrections
-
-## Questions for TAs
-
-None for now

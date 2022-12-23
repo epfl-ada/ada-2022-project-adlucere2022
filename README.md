@@ -1,4 +1,4 @@
-# Hacking the Oscar
+# Hacking the Oscars
 
 
 [Click here](https://adrianfo-16.github.io/ADA-adlucere2022-web-page/) to see the data story 
@@ -62,14 +62,15 @@ Using plot summaries in the analysis, we perform “feature engineering” on th
 We generate two different representations of plot summaries with two different techniques.
 
 #### LDA
-So our first approach is performing LDA topic modeling and find the latent topic ditribution over the movies.We used the coherence score to compare the models in order to fine-tune the topic parameter for the LDA technique, and in the end we chose the model with the lowest score.We also extract a list of "prototype" movies for each topic, namely the top five weighted probability movies on each topic based on the movie-topic matrix distribution.
+So our first approach is performing LDA topic modeling and find the latent topic ditribution over the movies.We used the coherence score to compare the models in order to fine-tune the topic parameter for the LDA technique, and in the end we chose the model with the lowest score. We also extract a list of "prototype" movies for each topic, namely the top five weighted probability movies on each topic based on the movie-topic matrix distribution.
 
 #### Factor Analysis
-As our second approach we manage to make three significant separations of the movies based on plot summaries depending on whether they “belong” to one of 3 computed categories named factors.We assigned each movie to one of them and since we have three
-
+As our second approach we manage to make three significant separations of the movies based on plot summaries depending on whether they “belong” to one of 3 computed categories named factors. We assigned each movie to one of them and since we have three groups of movies we perform statistical analysis running T-tests on mean proportions for our categorical variables and means for the numeric variables.
 
 ### Statistical IMDb Score Analysis
 
 
+
+For more advices how to hack Oscars you should go through the data story. Happy hacking!
 
 

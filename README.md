@@ -51,6 +51,7 @@ Convertion of string features that combine all languages, countries and genres o
 ### Plot Summary Encoding
 Using plot summaries in the analysis, we perform “feature engineering” on them and encode them into a numerical representation for further analysis.
 We generate two different representations of plot summaries with two different techniques.
+So our first approach is performing LDA topic modeling and find the latent topic ditribution over the movies.We used the coherence score to compare the models in order to fine-tune the topic parameter for the LDA technique, and in the end we chose the model with the lowest score.We also extract a list of "prototype" movies for each topic, namely the top five weighted probability movies on each topic based on the movie-topic matrix distribution.
 
 
 

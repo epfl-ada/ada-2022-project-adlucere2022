@@ -71,6 +71,6 @@ As our second approach we manage to make three significant separations of the mo
 
 
 
-#### For more advices how to hack Oscars you should go through the data story. Happy hacking!
+#### For more advices how to hack Oscars , you should go through the data story. Happy hacking!
 
 

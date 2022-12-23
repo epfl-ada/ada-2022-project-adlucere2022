@@ -28,7 +28,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 ├── src
 │   ├── Latent_Dirichlet_Allocation.ipynb          : notebook performing LDA analysis finding latent topics.
 │   ├── TF-iDF_Clustering.ipynb                    : notebook using TF-IDF matrix on summaries for clustering purposes.
-│   ├── data_preprocessing_exploration.ipynb       : notebook containing our preprocessing phase on the merged data.
+│   ├── data_preprocessing_exploration.ipynb       : notebook containing our preprocessing phase on the merged data (previously MS2).
 │   ├── final_statistical_analysis.ipynb           : notebook performing statistical analysis on different features for different quantiles.
 |   ├── plot_summary_NLP_processing.ipynb          : notebook that contains NLP processing on plot summaries for each movie.
 |   ├── jaccard_clustering.ipynb                   : notebook performing the jaccard approach for clustering purposes over the plot summaries.
@@ -63,3 +63,11 @@ As our second approach we manage to make three significant separations of the mo
 For the statistical analysis part we first discretize the imdb average rating into 5 quantiles analogously to ratings in terms of number of stars. We then split the dataset into two categories: movies with 5-star ratings and movies with ratings below 5 stars.First, we conduct t-tests to determine if the difference in the mean values of the features between 5-star and non-5-star movies is statistically significant.This requires a large number of comparisons, thus the standard p-value of 0.05 needs to be corrected.We therefore sort the features by increasing order of p-value and in the end we filter out the features most likely to have a strong effect on success by analyzing the mean differences between the features after standardization.
 
 #### For more advices how to hack Oscars , you should go through the data story. Happy hacking!
+
+
+## Teammate Contributions
+
+* Adrián Augusto Ferrer Orgaz: webpage, factor analysis - TFiDF clustering, statistical analysis
+* Lluka Stojollari: latent dirichlet allocation, README documentation, data manipulation, NLP pipeline
+* Cecilia Stella Mannik: statistical analysis, most written extracts, jaccard clustering
+* Raphael Rakotomahanina: latent dirichlet allocation, visualizations, data cleaning and manipulation

@@ -22,7 +22,9 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 |    ├── CMU                                       : contains all the dataset required for this project.
 |    ├── clustering                                : contains the .json files from the kmeans and dbscan clustering.
 |    ├── plot                                      : contains the temporary saved dataset after preproccesing.
+|
 ├── figs                                           : contains all the images that are used in the data story .
+|
 ├── src
 │   ├── Latent_Dirichlet_Allocation.ipynb          : notebook performing LDA analysis finding latent topics.
 │   ├── TF-iDF_Clustering.ipynb                    : notebook using TF-IDF matrix on summaries for clustering purposes.
@@ -30,6 +32,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 │   ├── final_statistical_analysis.ipynb           : notebook performing statistical analysis on different features for different quantiles.
 |   ├── plot_summary_NLP_processing.ipynb          : notebook that contains NLP processing on plot summaries for each movie.
 |   ├── jaccard_clustering.ipynb                   : notebook performing the jaccard approach for clustering purposes over the plot summaries.
+|
 ├── README.md
 ```
 ## Research Questions
@@ -46,7 +49,6 @@ Our [main dataset](http://www.cs.cmu.edu/~ark/personas/) contains the data from 
 
 Convertion of string features that combine all languages, countries and genres of a given movies into more computational-friendly features such as several columns in the main dataframe. Correcting repetitive values that are seen as different e.g. different english languages. Selecting only the most present languages, countries and genres to reduce the number of different categories.Creation of new features that appear relevant such as gender ratio, number of positive words in the plot, indicators for translations given the most present languages. Testing some agglomerative clustering on text data using Jaccard distance on word sets.  Basic NLP processing of plot summaries and titles such as stopwords removal, performing lemmatization , punctuantion removal also we removed digits and one letter strings for ease of analysis and performing LDA topic modeling.
 
-
 ### Plot Summary Encoding
 Using plot summaries in the analysis, we perform “feature engineering” on them and encode them into a numerical representation for further analysis.
 We generate two different representations of plot summaries with two different techniques.
@@ -58,6 +60,9 @@ So our first approach is performing LDA topic modeling and find the latent topic
 As our second approach we manage to make three significant separations of the movies based on plot summaries depending on whether they “belong” to one of 3 computed categories named factors. We assigned each movie to one of them and since we have three groups of movies we perform statistical analysis running T-tests on mean proportions for our categorical variables and means for the numeric variables.
 
 ### Statistical IMDb Score Analysis
+For the statistical analysis partwe first discretize the imdb average rating into 5 quantiles analogously to ratings in terms of number of stars. We then split the dataset into two categories: movies with 5-star ratings and movies with ratings below 5 stars.First, we conduct t-tests to determine if the difference in the mean values of the features between 5-star and non-5-star movies is statistically significant.This requires a large number of comparisons, thus the standard p-value of 0.05 needs to be corrected.We therefore sort the features by increasing order of p-value and in the end we filter out the features most likely to have a strong effect on success by analyzing the mean differences between the features after standardization.
+
+
 
 
 

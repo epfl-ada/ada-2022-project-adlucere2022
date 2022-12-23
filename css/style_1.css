@@ -46,6 +46,14 @@ h1{
     color: #e3d7a1;
 }
 
+table, td, th, tr{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  max-width: 100%;
+}
+
 img{
   display: block;
   margin-left: auto;
@@ -55,6 +63,14 @@ img{
 
 .container{
     padding: 10px 5%;
+}
+
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .column{
@@ -73,6 +89,15 @@ img{
     align-items: center;
     background: linear-gradient(0deg, rgba(8,8,8,1) 10%, #961818 90%);
 }
+
+.header::after{
+
+  background-position: center;
+
+  width: 100px;
+}
+
+ 
 
 .footer{
   margin-top: 15px;

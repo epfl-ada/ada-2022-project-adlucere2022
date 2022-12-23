@@ -62,7 +62,7 @@ We generate two different representations of plot summaries with two different t
 ### Statistical IMDb Score Analysis
 
 
-Click here to see the data story https://adrianfo-16.github.io/ADA-adlucere2022-web-page/
+[Click here](https://adrianfo-16.github.io/ADA-adlucere2022-web-page/) to see the data story 
 ## Team AdLluCeRe
 
 * Adrián Augusto Ferrer Orgaz

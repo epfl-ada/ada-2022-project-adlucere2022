@@ -36,8 +36,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 ## Research Questions
 
 * Is it possible to relevantly assemble movies between each others?
-* In that case, what would be the most significant features to seperate movies? 
-* Are those significant features always the same over time? 
+* In that case, what would be the most significant features to seperate movies?  
 * Do these clusters allow us to predict the imdb score nowadays?
 
 
@@ -45,23 +44,20 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 
 [IMDB dataset](https://www.imdb.com/interfaces/): included as to enrich the selected dataset's features. After analysis only the IMDB score was kept. Despite leading to a decreasing number of complete datapoints (around 20 to 25% of losses), we decided to perform the merge to obtain this interesting score. In order to deal with the data size of 100GB, we perform the analysis and the data extraction on a local machine (code provided on the notebook) before exporting the resulting dataframe ('movie_data_imdbscores.csv') on this GitHub repository. 
 
-## Methods
+Merge of the 5 initial dataframes into one dataframe with the objective of completing missing values through common features. Conversion of some feature in the datetime format. Plot of the feature missing values ratio.We also perform merging based on the movie title of the IMDB dataset in order to obtain the score given by the public.
 
-### Dataset Description
+### Data Preprocessing and Feature Extraction
 
-Merge of the 5 initial dataframes into one dataframe with the objective of completing missing values through common features. Conversion of some feature in the datetime format. Plot of the feature missing values ratio.
-
-### Preprocessing
-
-Convertion of string features that combine all languages, countries and genres of a given movies into more computational-friendly features such as several columns in the main dataframe. Correcting repetitive values that are seen as different e.g. different english languages. Selecting only the most present languages, countries and genres to reduce the number of different categories.  Basic NLP processing of plot summaries and titles for ease of analysis.
-
-### Feature Extraction
-
+Convertion of string features that combine all languages, countries and genres of a given movies into more computational-friendly features such as several columns in the main dataframe. Correcting repetitive values that are seen as different e.g. different english languages. Selecting only the most present languages, countries and genres to reduce the number of different categories.  Basic NLP processing of plot summaries and titles for ease of analysis and performing LDA topic modeling.
 Creation of new features that appear relevant such as gender ratio, number of positive words in the plot, indicators for translations given the most present languages. Testing some agglomerative clustering on text data using Jaccard distance on word sets.
 
-### IMDB Processing
 
-Merge based on the movie title of the IMDB dataset in order to obtain the score given by the public.
+### Plot Summary Encoding
+
+
+
+### Statistical IMDb Score Analysis
+
 
 ## Team AdLluCeRe
 

@@ -36,37 +36,33 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 ## Research Questions
 
 * Is it possible to relevantly assemble movies between each others?
-* In that case, what would be the most significant features to seperate movies? 
-* Are those significant features always the same over time? 
+* In that case, what would be the most significant features to seperate movies?  
 * Do these clusters allow us to predict the imdb score nowadays?
 
+## Datasets
+Our [main dataset](http://www.cs.cmu.edu/~ark/personas/) contains the data from Wikipedia + aligned metadata extracted from Freebase.
+[IMDB dataset](https://www.imdb.com/interfaces/): included as to enrich the selected dataset's features. After analysis only the IMDB score was kept. Despite leading to a decreasing number of complete datapoints (around 20 to 25% of losses), we decided to perform the merge to obtain this interesting score. In order to deal with the data size of 100GB, we perform the analysis and the data extraction on a local machine (code provided on the notebook) before exporting the resulting dataframe ('movie_data_imdbscores.csv') on this GitHub repository.Finally we merged the 5 initial dataframes into one dataframe with the objective of completing missing values through common features.
 
-## Additional Datasets
+### Data Preprocessing and Feature Extraction
 
-[IMDB dataset](https://www.imdb.com/interfaces/): included as to enrich the selected dataset's features. After analysis only the IMDB score was kept. Despite leading to a decreasing number of complete datapoints (around 20 to 25% of losses), we decided to perform the merge to obtain this interesting score. In order to deal with the data size of 100GB, we perform the analysis and the data extraction on a local machine (code provided on the notebook) before exporting the resulting dataframe ('movie_data_imdbscores.csv') on this GitHub repository. 
+Convertion of string features that combine all languages, countries and genres of a given movies into more computational-friendly features such as several columns in the main dataframe. Correcting repetitive values that are seen as different e.g. different english languages. Selecting only the most present languages, countries and genres to reduce the number of different categories.Creation of new features that appear relevant such as gender ratio, number of positive words in the plot, indicators for translations given the most present languages. Testing some agglomerative clustering on text data using Jaccard distance on word sets.  Basic NLP processing of plot summaries and titles such as stopwords removal, performing lemmatization , punctuantion removal also we removed digits and one letter strings for ease of analysis and performing LDA topic modeling.
 
-## Methods
 
-### Dataset Description
+### Plot Summary Encoding
+Using plot summaries in the analysis, we perform “feature engineering” on them and encode them into a numerical representation for further analysis.
+We generate two different representations of plot summaries with two different techniques.
 
-Merge of the 5 initial dataframes into one dataframe with the objective of completing missing values through common features. Conversion of some feature in the datetime format. Plot of the feature missing values ratio.
 
-### Preprocessing
 
-Convertion of string features that combine all languages, countries and genres of a given movies into more computational-friendly features such as several columns in the main dataframe. Correcting repetitive values that are seen as different e.g. different english languages. Selecting only the most present languages, countries and genres to reduce the number of different categories.  Basic NLP processing of plot summaries and titles for ease of analysis.
+### Statistical IMDb Score Analysis
 
-### Feature Extraction
 
-Creation of new features that appear relevant such as gender ratio, number of positive words in the plot, indicators for translations given the most present languages. Testing some agglomerative clustering on text data using Jaccard distance on word sets.
 
-### IMDB Processing
-
-Merge based on the movie title of the IMDB dataset in order to obtain the score given by the public.
-
+[Click here](https://adrianfo-16.github.io/ADA-adlucere2022-web-page/) to see the data story 
 ## Team AdLluCeRe
 
-* Adrián
-* Lluka
-* Cecilia
-* Raphael
+* Adrián Augusto Ferrer Orgaz
+* Lluka Stojollari
+* Cecilia Stella Mannik
+* Raphael Rakotomahanina
 

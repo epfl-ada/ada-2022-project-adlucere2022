@@ -12,21 +12,18 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 ├── README.md                              : The README guideline and explanation for our project.
 |
 ├── Analysis of the data
-│   ├── Exploration of the data.ipynb      : contains the data analysis of the tweets before and after preprocessing.
+│   ├── Exploration of the data.ipynb     
 |
 ├── notebooks
-│    ├── roberta.ipynb                     : contains the training of RoBERTa mdoels using the small tweet dataset using the preprocessed training set.
-|    ├── run.ipynb
-|    ├── train_embeddings_and_logistic_regression.ipynb :
+│    
+|
+|
 |
 ├── src
 │   ├── helpers.py                         : script containing helpers method.
 │   ├── preprocessings.py                  : script containing our methods to preprocess tweets .
 │   ├── Models                             : contains our model implementation.
-|       ├── LSTM_models.py                 : 
-|       ├── Naïve_Bayes_Classifier.py      : 
-|       ├── RoBERTa.py                     : 
-|       ├── logistic_regression.py         : 
+|      
 |
 ├── data
 │   ├── test_data.txt                      : Twitter test dataset, containing 10,000 unlabeled tweets.

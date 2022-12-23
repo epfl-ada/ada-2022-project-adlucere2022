@@ -17,19 +17,12 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 ## Structure 
 
 ```bash
-
-├── css
-|    ├── style_1.css                               : contains the first template for the html data story.
-|    ├── style_2.css                               : contains the first template for the html data story.
 |
 ├── data
 |    ├── CMU                                       : contains all the dataset required for this project.
 |    ├── clustering                                : contains the .json files from the kmeans and dbscan clustering.
 |    ├── plot                                      : contains the temporary saved dataset after preproccesing.
-|
 ├── figs                                           : contains all the images that are used in the data story .
-├── img                                            : contains the oscar trophy image.
-|
 ├── src
 │   ├── Latent_Dirichlet_Allocation.ipynb          : notebook performing LDA analysis finding latent topics.
 │   ├── TF-iDF_Clustering.ipynb                    : notebook using TF-IDF matrix on summaries for clustering purposes.
@@ -37,10 +30,7 @@ In this project we attempt to gain a deeper understanding of what makes a movie 
 │   ├── final_statistical_analysis.ipynb           : notebook performing statistical analysis on different features for different quantiles.
 |   ├── plot_summary_NLP_processing.ipynb          : notebook that contains NLP processing on plot summaries for each movie.
 |   ├── jaccard_clustering.ipynb                   : notebook performing the jaccard approach for clustering purposes over the plot summaries.
-|
-|
 ├── README.md
-├── index.html                                     : contains the html implementation of our data story.
 ```
 ## Research Questions
 

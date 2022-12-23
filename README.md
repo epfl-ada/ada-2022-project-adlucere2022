@@ -60,10 +60,7 @@ So our first approach is performing LDA topic modeling and find the latent topic
 As our second approach we manage to make three significant separations of the movies based on plot summaries depending on whether they “belong” to one of 3 computed categories named factors. We assigned each movie to one of them and since we have three groups of movies we perform statistical analysis running T-tests on mean proportions for our categorical variables and means for the numeric variables.
 
 ### Statistical IMDb Score Analysis
-For the statistical analysis partwe first discretize the imdb average rating into 5 quantiles analogously to ratings in terms of number of stars. We then split the dataset into two categories: movies with 5-star ratings and movies with ratings below 5 stars.First, we conduct t-tests to determine if the difference in the mean values of the features between 5-star and non-5-star movies is statistically significant.This requires a large number of comparisons, thus the standard p-value of 0.05 needs to be corrected.We therefore sort the features by increasing order of p-value and in the end we filter out the features most likely to have a strong effect on success by analyzing the mean differences between the features after standardization.
-
-
-
+For the statistical analysis part we first discretize the imdb average rating into 5 quantiles analogously to ratings in terms of number of stars. We then split the dataset into two categories: movies with 5-star ratings and movies with ratings below 5 stars.First, we conduct t-tests to determine if the difference in the mean values of the features between 5-star and non-5-star movies is statistically significant.This requires a large number of comparisons, thus the standard p-value of 0.05 needs to be corrected.We therefore sort the features by increasing order of p-value and in the end we filter out the features most likely to have a strong effect on success by analyzing the mean differences between the features after standardization.
 
 
 #### For more advices how to hack Oscars , you should go through the data story. Happy hacking!

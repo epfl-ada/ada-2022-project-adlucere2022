@@ -53,12 +53,16 @@ Creation of new features that appear relevant such as gender ratio, number of po
 
 
 ### Plot Summary Encoding
+Using plot summaries in the analysis, we perform “feature engineering” on them and encode them into a numerical representation for further analysis.
+
+We generate two different representations of plot summaries with two different techniques.
 
 
 
 ### Statistical IMDb Score Analysis
 
 
+Click here to see the data story https://adrianfo-16.github.io/ADA-adlucere2022-web-page/
 ## Team AdLluCeRe
 
 * Adrián Augusto Ferrer Orgaz

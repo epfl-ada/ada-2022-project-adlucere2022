@@ -64,5 +64,3 @@ For the statistical analysis part we first discretize the imdb average rating in
 
 
 #### For more advices how to hack Oscars , you should go through the data story. Happy hacking!
-
-
